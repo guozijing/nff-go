@@ -43,22 +43,20 @@ README of nff-go
 - ninja install  &emsp; **(root)**
 - ldconfig &emsp; **(root)**
 
+#### compile nff-go
+
+- cd nff-go
+- go mod download 
+- make -j8
+
 ##### run DPDK helloworld
 
-- cd nff-go/dpdk/dpdk/usertools
-- dpdk-setup.sh   &emsp;  &emsp; _input **36**_
 - cd ../examples/helloworld/
 - export RTE_SDK=PATH_NFFGO/nff-go/dpdk/dpdk/
 - export RTE_TARGET=x86_64-native-linuxapp-gcc
 - make
 - cd build
 - sudo ./helloworld
-
-#### compile nff-go
-
-- cd nff-go
-- go mod download 
-- make -j8
 
 #### test nff-go
 
