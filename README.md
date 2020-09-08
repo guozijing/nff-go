@@ -17,7 +17,7 @@ README of nff-go
 - cd libbpf/src
 - make
 - sudo make install
-- echo "/usr/lib64" >> /etc/ld.so.conf
+- echo "/usr/lib64" >> /etc/ld.so.conf &emsp; **(root)**
 - ldconfig  &emsp; **(root)**
 - cp -rf ./libbpf/include/uapi/linux PATH_NFFGO/nff-go/internal/low/
 
