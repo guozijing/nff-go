@@ -9,7 +9,7 @@ README of nff-go
 
 #### install deps of nff-go
 
-- apt install liblua5.3-dev libmnl-dev libelf-dev libnuma-dev build-essential libibverbs-dev
+- apt install liblua5.3-dev libmnl-dev libelf-dev libnuma-dev build-essential libibverbs-dev libpcap-dev
 - pip3 install meson ninja
 
 
